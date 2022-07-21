@@ -607,13 +607,18 @@ body {
   display: flex;
 }
 
+.ft-form-lable input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .ft-form-btn {
   display: flex;
-  margin-left: 12px;
-  padding: 0 28px;
-
   justify-content: center;
   align-items: center;
+
+  margin-left: 12px;
+  padding: 10px 28px;
+  min-width: 200px;
 
   background-color: var(--acent-color);
   border: none;
