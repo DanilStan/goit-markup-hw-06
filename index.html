@@ -457,7 +457,9 @@
       <div class="modal">
         <button type="submit" class="modal-button" data-modal-close>
           <div class="bg-btn">
-            <img class="modal-img" src="./images/close.svg" alt="icon" />
+            <svg class="modal-svg" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-newicon"></use>
+            </svg>
           </div>
         </button>
 
@@ -496,8 +498,15 @@
 
           <label class="modal-form-checkbox">
             <p class="modal-checkbox-text">
-              <input class="" type="checkbox" />Соглашаюсь с рассылкой и принимаю
+              <input class="visually-hidden modal-form-outcheckbox" type="checkbox" />Соглашаюсь с
+              рассылкой и принимаю
               <a href="./">Условия договора</a>
+              <svg class="modal-btn-off" width="16px" height="15px">
+                <use href="./images/sprite.svg#icon-form-footer-checkbox"></use>
+              </svg>
+              <svg class="modal-btn-on" width="16px" height="15px">
+                <use href="./images/sprite.svg#icon-form-footer-checkbox-two"></use>
+              </svg>
             </p>
           </label>
 
